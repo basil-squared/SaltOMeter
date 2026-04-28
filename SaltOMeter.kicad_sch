@@ -5,6 +5,415 @@
 	(uuid "e2fbdf2b-e0a2-4766-85e9-3b223c9e0395")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Audio:MAX98357A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX98357A"
+				(at 10.16 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
+				(at -1.27 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "pcm tdm i2s left-justified amplifier audio dac"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TQFN*3x3mm*P0.5mm*EP1.23x1.23mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MAX98357A_1_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "GAIN_SLOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "~{SD_MODE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "OUTP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "OUTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "LRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "BCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Battery_Management:TP4056-42-ESOP8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -438,6 +847,273 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4396,10 +5072,40 @@
 		)
 	)
 	(junction
+		(at 110.49 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "536a8320-ee0a-43ed-a5a8-601bcec95ea8")
+	)
+	(junction
 		(at 246.38 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "811b7aac-e63f-4da8-b611-ecddaad7a7ec")
+	)
+	(junction
+		(at 82.55 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d409351-af56-4f52-9ed2-4e9db6fa7646")
+	)
+	(junction
+		(at 129.54 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95eb6143-b817-46ea-ac09-bccfcbbfa0f2")
+	)
+	(junction
+		(at 68.58 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99131eae-2161-4338-9e21-7dd425a46210")
+	)
+	(junction
+		(at 101.6 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0bcaabb-8976-4b55-864a-83e07441ff99")
 	)
 	(junction
 		(at 251.46 58.42)
@@ -4418,6 +5124,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc2aa5e0-58ff-4af4-a1ed-47236aac9e96")
+	)
+	(junction
+		(at 80.01 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2e949ca-2ed6-4172-8348-5600d59e1845")
 	)
 	(junction
 		(at 210.82 92.71)
@@ -4447,6 +5159,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 67.31) (xy 109.22 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01545355-a5ce-4f4f-bad9-017ec1bb6a58")
+	)
+	(wire
+		(pts
 			(xy 237.49 123.19) (xy 241.3 123.19)
 		)
 		(stroke
@@ -4457,6 +5179,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 69.85) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f129bc-6b41-4a6f-ae88-71d265937075")
+	)
+	(wire
+		(pts
 			(xy 93.98 111.76) (xy 99.06 111.76)
 		)
 		(stroke
@@ -4464,6 +5196,26 @@
 			(type default)
 		)
 		(uuid "122254cb-bdcd-41cf-9d27-3dec3733dba4")
+	)
+	(wire
+		(pts
+			(xy 63.5 157.48) (xy 69.85 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cbb5f8-d33c-4c2d-bfc7-53be8eaf2eb8")
+	)
+	(wire
+		(pts
+			(xy 62.23 104.14) (xy 68.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1384ee1b-1fe2-4740-87c2-f5988038f0ea")
 	)
 	(wire
 		(pts
@@ -4497,6 +5249,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 67.31) (xy 91.44 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27044e2d-8cfa-46f3-a7e0-0324715d380c")
+	)
+	(wire
+		(pts
 			(xy 180.34 80.01) (xy 180.34 88.9)
 		)
 		(stroke
@@ -4504,6 +5266,16 @@
 			(type default)
 		)
 		(uuid "27c62368-9481-4544-b3b0-8e80806c1fd7")
+	)
+	(wire
+		(pts
+			(xy 63.5 154.94) (xy 69.85 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abe6eb1-d3e0-4704-b5d3-59b4e19c95d8")
 	)
 	(wire
 		(pts
@@ -4517,6 +5289,46 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 165.1) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31cb1538-0552-49b0-a604-e023b6f9025c")
+	)
+	(wire
+		(pts
+			(xy 82.55 143.51) (xy 82.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ab3a6b-b059-4109-8f46-49183b50bf87")
+	)
+	(wire
+		(pts
+			(xy 99.06 64.77) (xy 110.49 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9df393-9952-4d50-8f29-3b0a53ac953f")
+	)
+	(wire
+		(pts
+			(xy 86.36 88.9) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edca042-4df6-41a6-a392-b1660c1d4cb4")
+	)
+	(wire
+		(pts
 			(xy 246.38 58.42) (xy 246.38 62.23)
 		)
 		(stroke
@@ -4527,6 +5339,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 59.69) (xy 123.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499381f2-0ea5-47e0-8f59-fc716614483f")
+	)
+	(wire
+		(pts
 			(xy 262.89 58.42) (xy 260.35 58.42)
 		)
 		(stroke
@@ -4534,6 +5356,16 @@
 			(type default)
 		)
 		(uuid "4a741295-ccd9-49cb-acfc-4007dc70d57e")
+	)
+	(wire
+		(pts
+			(xy 96.52 67.31) (xy 101.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa2e6b5-4414-4035-90c9-036462609f5f")
 	)
 	(wire
 		(pts
@@ -4557,6 +5389,26 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 154.94) (xy 102.87 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a02842-6aaa-472a-ae1f-c1d9348709b0")
+	)
+	(wire
+		(pts
+			(xy 95.25 157.48) (xy 102.87 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5879cb9a-fa41-41aa-98e5-c9fd1af0ab19")
+	)
+	(wire
+		(pts
 			(xy 209.55 92.71) (xy 210.82 92.71)
 		)
 		(stroke
@@ -4567,6 +5419,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 101.6) (xy 68.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d40c58e-100e-4651-9395-39cc8c27a686")
+	)
+	(wire
+		(pts
 			(xy 201.93 80.01) (xy 180.34 80.01)
 		)
 		(stroke
@@ -4574,6 +5436,16 @@
 			(type default)
 		)
 		(uuid "5e86a3b2-f459-410e-bfa3-66608970f8a2")
+	)
+	(wire
+		(pts
+			(xy 82.55 146.05) (xy 96.52 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62bde33e-d817-4c4a-9ead-78eed6fff671")
 	)
 	(wire
 		(pts
@@ -4607,6 +5479,46 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 59.69) (xy 110.49 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c288e15-5ea7-46c9-888b-191a0204922f")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813a0cef-d7cf-4b1d-99ec-a7a9eb7ba78d")
+	)
+	(wire
+		(pts
+			(xy 93.98 67.31) (xy 93.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8823bcd0-da19-486a-8f21-80206012c80d")
+	)
+	(wire
+		(pts
+			(xy 57.15 146.05) (xy 82.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af8fee8-6b3c-45f3-bd75-0ea61042d408")
+	)
+	(wire
+		(pts
 			(xy 210.82 92.71) (xy 210.82 96.52)
 		)
 		(stroke
@@ -4637,6 +5549,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 64.77) (xy 114.3 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e9a05b-5d04-49f0-99ed-79c636f6b38c")
+	)
+	(wire
+		(pts
 			(xy 127 118.11) (xy 132.08 118.11)
 		)
 		(stroke
@@ -4644,6 +5566,16 @@
 			(type default)
 		)
 		(uuid "ab18a6a4-9d97-4ab7-9b29-4fa769c0e86a")
+	)
+	(wire
+		(pts
+			(xy 114.3 64.77) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af27d90f-a444-46d9-b018-058f767c5ad4")
 	)
 	(wire
 		(pts
@@ -4664,6 +5596,16 @@
 			(type default)
 		)
 		(uuid "b5f4ed2d-c244-4b83-9cad-e9933faaadc2")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 109.22 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a91ad8-7edb-4dcd-b0ea-54839e0fd487")
 	)
 	(wire
 		(pts
@@ -4697,6 +5639,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 99.06) (xy 68.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde3537e-9163-493e-af9c-aa2f60699385")
+	)
+	(wire
+		(pts
 			(xy 140.97 59.69) (xy 147.32 59.69)
 		)
 		(stroke
@@ -4727,6 +5679,26 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 175.26) (xy 85.09 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89969a3-d966-4591-aa9d-ad9fc142886c")
+	)
+	(wire
+		(pts
+			(xy 63.5 160.02) (xy 69.85 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d192f5a5-ab4c-4643-8ee9-68b483861242")
+	)
+	(wire
+		(pts
 			(xy 193.04 82.55) (xy 193.04 88.9)
 		)
 		(stroke
@@ -4734,6 +5706,26 @@
 			(type default)
 		)
 		(uuid "d5b46037-0924-41a3-9034-4dd7c8e4240b")
+	)
+	(wire
+		(pts
+			(xy 96.52 64.77) (xy 96.52 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83d510a-d000-4b2d-887b-3f3c2294412b")
+	)
+	(wire
+		(pts
+			(xy 62.23 165.1) (xy 57.15 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6f6b6c-b528-450d-be13-8ad086925561")
 	)
 	(wire
 		(pts
@@ -4777,6 +5769,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 146.05) (xy 82.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e8f856-e752-4621-b8e8-2d41d9cc4ca9")
+	)
+	(wire
+		(pts
+			(xy 123.19 72.39) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0fc53e-0db8-45ce-84a6-fe5db20189a3")
+	)
+	(wire
+		(pts
 			(xy 147.32 52.07) (xy 147.32 59.69)
 		)
 		(stroke
@@ -4784,6 +5796,16 @@
 			(type default)
 		)
 		(uuid "ed1f14ed-7a71-4643-80e6-d7a1bd3dc603")
+	)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 101.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f796d855-9669-47e1-a720-0c57932143c7")
 	)
 	(wire
 		(pts
@@ -4825,6 +5847,16 @@
 		)
 		(uuid "0629db68-658c-4e8c-bf89-a55ad164f070")
 	)
+	(label "WS"
+		(at 132.08 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "079aff0e-f511-400b-821b-8bf6c9b4f7a8")
+	)
 	(label "MOTOR_IN3"
 		(at 132.08 92.71 180)
 		(effects
@@ -4844,6 +5876,26 @@
 			(justify right bottom)
 		)
 		(uuid "0bad15c2-e8fb-429a-9aa3-fd4895818160")
+	)
+	(label "SD"
+		(at 132.08 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1538d019-fa0d-4878-834e-cf2e21c313d8")
+	)
+	(label "DIN"
+		(at 63.5 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ad3f379-1a52-4f01-91ab-7a50a40e747f")
 	)
 	(label "VBAT"
 		(at 222.25 74.93 0)
@@ -4865,6 +5917,16 @@
 		)
 		(uuid "26dc7327-5307-4415-b120-65282dda7be0")
 	)
+	(label "CLCK"
+		(at 63.5 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bdc1c60-e667-42ae-8e0f-ad880eca8269")
+	)
 	(label "MOTOR_IN4"
 		(at 132.08 95.25 180)
 		(effects
@@ -4884,6 +5946,16 @@
 			(justify right bottom)
 		)
 		(uuid "3fb19dbb-5971-4e9c-a416-7232e5406616")
+	)
+	(label "12C_SDA"
+		(at 109.22 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "413ee652-1d3d-404d-b0f8-8ea8992fb927")
 	)
 	(label "VMAIN"
 		(at 241.3 125.73 180)
@@ -4914,6 +5986,16 @@
 			(justify right bottom)
 		)
 		(uuid "6dc9f882-e1cc-4b44-b07f-1614a234532d")
+	)
+	(label "12C_SDL"
+		(at 114.3 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ffe8cb9-eeac-492e-b964-7590051bf4ab")
 	)
 	(label "VMAIN"
 		(at 222.25 140.97 0)
@@ -4965,6 +6047,36 @@
 		)
 		(uuid "913b7777-76ea-42ae-9863-de34c1740e30")
 	)
+	(label "DIN"
+		(at 132.08 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "934b8dd7-ceb1-48f8-82f2-f540f241f66d")
+	)
+	(label "VMAIN"
+		(at 82.55 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c4bc3d0-cba0-4b03-aefe-241011431c3a")
+	)
+	(label "CLCK"
+		(at 132.08 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dd522fd-230a-4298-a49c-ed91c0769a49")
+	)
 	(label "I2C_SDL"
 		(at 127 118.11 180)
 		(effects
@@ -4985,6 +6097,16 @@
 		)
 		(uuid "b7dc2e6d-9a33-4991-8fc7-bed86a4d4131")
 	)
+	(label "WS"
+		(at 63.5 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d272ddbf-5682-486c-b853-e4adb89ed6ce")
+	)
 	(label "MOTOR_IN3"
 		(at 68.58 114.3 180)
 		(effects
@@ -4994,6 +6116,16 @@
 			(justify right bottom)
 		)
 		(uuid "e0f41e3a-f7b2-4f8f-98c2-ddb2387524f7")
+	)
+	(label "VMAIN"
+		(at 48.26 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2e3989f-798d-41f5-9660-337329019764")
 	)
 	(label "D-"
 		(at 251.46 62.23 0)
@@ -5536,6 +6668,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c2aea4a-f2f6-4ba3-b09f-d523558d1eb4")
+		(property "Reference" "#PWR030"
+			(at 72.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c462db80-3629-4027-8c3b-bd37c8a93078")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:TP4056-42-ESOP8")
 		(at 212.09 80.01 0)
 		(unit 1)
@@ -5729,7 +6940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f0a0b2c-28fd-43ce-b6e6-7cdbdb440198")
-		(property "Reference" "J3"
+		(property "Reference" "Motor2A"
 			(at 105.41 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,7 +6951,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor2"
+		(property "Value" "Motor2B"
 			(at 105.41 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,7 +7004,87 @@
 		(instances
 			(project "SaltOMeter"
 				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
-					(reference "J3")
+					(reference "Motor2A")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 52.07 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3222f2e0-7d8f-4918-8951-46755e71413e")
+		(property "Reference" "C6"
+			(at 52.07 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 52.07 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 98.0948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.07 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0460800b-4136-4444-ae65-087909bbde98")
+		)
+		(pin "2"
+			(uuid "49e016bc-954b-4aa8-aec9-e1738d351210")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5811,7 +7102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35123761-7f01-4c13-8cd4-30301f002eef")
-		(property "Reference" "J2"
+		(property "Reference" "Motor1A"
 			(at 105.41 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +7113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor1"
+		(property "Value" "Motor1B"
 			(at 105.41 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5875,7 +7166,87 @@
 		(instances
 			(project "SaltOMeter"
 				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
-					(reference "J2")
+					(reference "Motor1A")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 165.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "487f618c-1cd6-405f-98d2-9c6564e35eda")
+		(property "Reference" "R11"
+			(at 66.04 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 66.04 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 166.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "919d3131-6c76-4c0f-b807-7b0bae9125f5")
+		)
+		(pin "2"
+			(uuid "d9e2ba52-e2d8-4d57-a79f-e598d292be6d")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6119,6 +7490,402 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae1541a-db2a-488d-ae31-650d48f752be")
+		(property "Reference" "#PWR025"
+			(at 88.9 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49d174dd-9686-49d0-b1ff-888dc69f221d")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b4a2f96-40f5-4cc4-bb8e-f70cf695ade6")
+		(property "Reference" "R10"
+			(at 124.968 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 117.094 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.412 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a88825e8-c654-47a2-b987-cb5f38d79b38")
+		)
+		(pin "1"
+			(uuid "ebb1ed42-9228-4bd0-9c3d-572a33cdc8cf")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 167.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e9d8198-5649-44d9-bd0f-53db1b915bc1")
+		(property "Reference" "#PWR036"
+			(at 63.5 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 167.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "858df573-7ae5-4419-8973-d10876ec75f2")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 104.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62bb0dd0-5636-498a-9bb9-f5c4b64718a2")
+		(property "Reference" "#PWR029"
+			(at 55.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3a7776a-1970-41fb-8e2f-64a0ab71afd6")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63d23cbf-9a85-4dda-bf17-049e2c951661")
+		(property "Reference" "#PWR033"
+			(at 100.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c838c0ad-70a1-4d5f-b2e1-eb3a54531301")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 218.44 107.95 90)
 		(unit 1)
@@ -6352,6 +8119,92 @@
 			(project "SaltOMeter"
 				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 93.98 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b0a4b16-95c1-452f-9fab-bd77a610ad5f")
+		(property "Reference" "J2"
+			(at 95.25 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 95.25 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 93.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 93.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0683c8df-2ba9-4bf1-bafd-61aee1e82b52")
+		)
+		(pin "1"
+			(uuid "4463f3ef-0971-420b-925f-aec089da1817")
+		)
+		(pin "2"
+			(uuid "98a62b7a-11a0-45cb-b5d1-1b34899bdea6")
+		)
+		(pin "4"
+			(uuid "7909dff0-d90f-4fa3-ad1f-efcb7203f9cb")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6713,6 +8566,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 101.6 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "753860a8-b3ec-4d98-9d59-7a3c955b0265")
+		(property "Reference" "#PWR028"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 101.6 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44b14736-a491-4a7b-b3e3-2d892967390a")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 222.25 120.65 0)
 		(unit 1)
@@ -6789,6 +8720,86 @@
 			(project "SaltOMeter"
 				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78aa749e-deed-47af-916a-cac6c6524d45")
+		(property "Reference" "C8"
+			(at 100.33 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220uF"
+			(at 100.33 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 145.0848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0045434f-26d4-49b8-9afa-877a631413a9")
+		)
+		(pin "2"
+			(uuid "4090245a-b719-4f44-b0b3-d59f61e75553")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6958,6 +8969,83 @@
 			(project "SaltOMeter"
 				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cc5969c-79d2-4281-a0dc-d968eec05955")
+		(property "Reference" "#PWR031"
+			(at 129.54 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.588 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a360930-7f66-4a61-b900-e32fe4254a1b")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7151,6 +9239,84 @@
 			(project "SaltOMeter"
 				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81c85597-43e7-49bd-9b7c-856a363407a6")
+		(property "Reference" "#PWR027"
+			(at 110.49 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.49 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd9fdf67-1efd-46b8-a215-02214d8ca606")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7525,6 +9691,133 @@
 		)
 	)
 	(symbol
+		(lib_id "Audio:MAX98357A")
+		(at 82.55 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a740402c-79a6-4e85-8c7b-4964968b2f88")
+		(property "Reference" "U5"
+			(at 84.6933 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX98357A"
+			(at 84.6933 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
+			(at 81.28 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
+			(at 82.55 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
+			(at 82.55 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "4d7d7697-0813-47e2-9d4d-be7f3dca109f")
+		)
+		(pin "11"
+			(uuid "3dfa8ffa-0d42-45af-bc90-184ef4c65e01")
+		)
+		(pin "13"
+			(uuid "3cf945ba-a125-4cd3-879d-5e3e9d273de7")
+		)
+		(pin "15"
+			(uuid "52c565d8-bf5e-437d-b1cd-a7b5eff1394f")
+		)
+		(pin "1"
+			(uuid "4c349e13-858b-40c6-8e57-6ea3a163e00b")
+		)
+		(pin "3"
+			(uuid "e3dbb203-b234-47cc-908b-836bc15b1fbb")
+		)
+		(pin "4"
+			(uuid "d10e29cc-c783-41ca-a546-65994aa4410d")
+		)
+		(pin "6"
+			(uuid "77e5d7e3-d667-4b90-b8a3-16af562cdebb")
+		)
+		(pin "7"
+			(uuid "a3e5e917-67d0-4dcb-a2ac-1309a6a8d190")
+		)
+		(pin "2"
+			(uuid "8b0e36b4-6b93-45b4-9cdc-f6c4136cf744")
+		)
+		(pin "5"
+			(uuid "3704a5f1-f0ab-42a8-afcb-86f444022f0b")
+		)
+		(pin "8"
+			(uuid "5e0931f7-4a6e-4ab8-a439-15efadbfcce4")
+		)
+		(pin "10"
+			(uuid "28282d77-415e-41ba-8860-127b812dc69b")
+		)
+		(pin "12"
+			(uuid "73036954-9366-4bd5-9e75-644a7e21465c")
+		)
+		(pin "14"
+			(uuid "92419c5e-dd47-4a92-a410-a08839bc9afa")
+		)
+		(pin "16"
+			(uuid "130f5d9d-0b2d-487e-98f0-1fd4104fc379")
+		)
+		(pin "17"
+			(uuid "753ac6cf-9705-4d0c-a248-ddce7a35a163")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 96.52 0)
 		(unit 1)
@@ -7597,6 +9890,88 @@
 			(project "SaltOMeter"
 				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 107.95 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace641c1-d079-4590-8aa1-e6e4484c015d")
+		(property "Reference" "J3"
+			(at 109.22 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 109.22 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+			(at 107.95 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 107.95 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db3a2a17-91c8-4acc-b443-37fb1d6d2f4b")
+		)
+		(pin "1"
+			(uuid "4661aa58-157f-4c8e-b7c9-08857c32ad4d")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8092,6 +10467,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 82.55 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcff0051-5fc1-4a95-9a68-89af88da375e")
+		(property "Reference" "C5"
+			(at 82.55 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 82.55 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 87.9348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28c1fd05-c590-401a-b527-4fe4b7516e3f")
+		)
+		(pin "2"
+			(uuid "445e3852-341d-4cbb-9924-d01f2736284e")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beae9ccb-325c-46b3-a0a1-11e91e21b4ee")
+		(property "Reference" "#PWR034"
+			(at 80.01 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d12b8592-3835-4d69-91a1-c7478d646a26")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.87 82.55 90)
 		(unit 1)
@@ -8297,6 +10830,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 129.54 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4c3b447-13ed-4414-9348-523f5f8c472f")
+		(property "Reference" "C7"
+			(at 133.35 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 124.206 70.866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.5748 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dc1f3d58-42b7-4103-94a8-b216569a8a75")
+		)
+		(pin "1"
+			(uuid "2923ebca-c6f0-4c86-b758-d1949fef7936")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 248.92 125.73 0)
 		(unit 1)
@@ -8379,6 +10993,244 @@
 			(project "SaltOMeter"
 				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 93.98 67.31 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c538b7-40c1-4a6a-af60-99fac3ae30a0")
+		(property "Reference" "#PWR026"
+			(at 93.98 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 93.98 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 93.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb2af658-a420-42d1-b8da-2cf21f80b13a")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c91c4462-558b-4a2e-bb18-805e3b5ba138")
+		(property "Reference" "#PWR035"
+			(at 110.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d050c401-3099-41b2-80f5-ed4323cefaa5")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9254b4b-e295-45cc-8c76-9a166b6a5949")
+		(property "Reference" "R9"
+			(at 104.14 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 95.504 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.822 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "495b020c-aac8-4bb3-b1aa-d2008da22559")
+		)
+		(pin "1"
+			(uuid "e3207d96-6494-49b2-834f-21104d560ce8")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8620,6 +11472,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 110.49 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2c77d99-3d4a-4a2a-ac27-eff182326c49")
+		(property "Reference" "R8"
+			(at 113.03 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 113.03 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 108.712 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ce38e55-cd33-43af-9751-f40b82c50245")
+		)
+		(pin "1"
+			(uuid "115b7383-1cfe-4e85-9599-394776163725")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 252.73 77.47 0)
 		(unit 1)
@@ -8770,6 +11704,84 @@
 			(project "SaltOMeter"
 				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 123.19 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba18028-f17d-4aaf-bad7-7ab19c4348cd")
+		(property "Reference" "#PWR032"
+			(at 123.19 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 123.19 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 123.19 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7089b41-8271-4c46-b81a-3198b3131d24")
+		)
+		(instances
+			(project "SaltOMeter"
+				(path "/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
