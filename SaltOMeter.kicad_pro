@@ -661,7 +661,7 @@
         "uuid": "e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
       }
     ],
-    "used_designators": "R12,#FLG1-3,J4,#PWR37-54,Motor1A1,U6-7,C9-12,SW2-3,Motor2A1",
+    "used_designators": "R13,D4,J5,#PWR53-54,Q2",
     "variants": []
   },
   "sheets": [
