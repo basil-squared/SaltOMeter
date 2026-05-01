@@ -244,7 +244,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1219200|1778000|2c130021-1915-4106-a678-c5729cf72507|a94b4545-fd67-486a-8d8a-4f2d7528a9e8|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395",
+        ""
+      ],
+      [
+        "pin_to_pin|596900|1752600|753ac6cf-9705-4d0c-a248-ddce7a35a163|d12b8592-3835-4d69-91a1-c7478d646a26|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1117600|927100|b907d2a3-7411-4da8-a47d-e069df6c149c|00000000-0000-0000-0000-000000000000|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2260600|1079500|b70f2559-7696-4c8e-b047-f1f04b82f04d|00000000-0000-0000-0000-000000000000|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|",
+        "weird kicad thing"
+      ],
+      [
+        "power_pin_not_driven|571500|914400|2ed1f12f-43ba-4b12-b218-6da2c77e251b|00000000-0000-0000-0000-000000000000|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|/e2fbdf2b-e0a2-4766-85e9-3b223c9e0395|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -620,6 +641,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -632,7 +661,7 @@
         "uuid": "e2fbdf2b-e0a2-4766-85e9-3b223c9e0395"
       }
     ],
-    "used_designators": "R8-11,J2-3,#PWR25-36,C5-8,U5",
+    "used_designators": "R12,#FLG1-3,J4,#PWR37-54,Motor1A1,U6-7,C9-12,SW2-3,Motor2A1",
     "variants": []
   },
   "sheets": [
